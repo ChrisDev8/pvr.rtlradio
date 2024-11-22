@@ -1,6 +1,9 @@
 variables:
   app_id: 'pvr.rtradio'
 
+
+pool: My Pool
+
 trigger:
   branches:
     include:
