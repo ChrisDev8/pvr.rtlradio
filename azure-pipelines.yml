@@ -1,9 +1,6 @@
 variables:
   app_id: 'pvr.rtradio'
 
-
-pool: My Pool
-
 trigger:
   branches:
     include:
@@ -19,8 +16,7 @@ trigger:
 jobs:
   - job: Windows
 
-    pool:
-      vmImage: 'windows-2022'
+    pool: My Pool
 
     strategy:
       matrix:
